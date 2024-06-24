@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.headercontainer{
+width: 100%;
+background-color: grey;
+display: inline-block;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.btns{
+width: 40vw;
+display: flex;
+justify-content: space-between;
+}
+button{
+width: 12vw;
+height: 5vw;
+border-radius: 1vw;
+border: none;
+font-size: 2vw;
+}
+.tittle{
+width: 40vw;
+height: 30vw;
+p{
+width: 40vw;
+}
+}

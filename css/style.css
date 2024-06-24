@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+position: fixed;
+width: 100%;
+margin-top: -5vw;
+}
+.headercontainer{
+width: 100%;
+background-color: grey;
+display: inline-block;
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 4vw;
+}
+#logoimg{
+width: 5vw;
+height: 5vw;
+}
+.btns{
+width: 40vw;
+display: flex;
+justify-content: space-between;
+}
+button{
+width: 8vw;
+height: 3vw;
+border-radius: 1vw;
+border: none;
+font-size: 1vw;
+/* border: 1px solid white ; */
+}
+.tittle{
+width: 40vw;
+height: 30vw;
+margin: auto;
+margin-top: 5vw;
+}
+h1{
+text-align: center;
+font-size: 2vw;
+}
+#p1{
+    margin: auto;
+text-align: center;
+margin-top: 2vw;
+width: 30vw;
+font-size: 1vw;
+}
+.tittleBtns{
+    text-align: center;
+    /* margin-top: 2vw; */
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.cardWrapper{
+display: flex;
+justify-content: space-evenly;
+margin-top: -10vw;
+}
+.card{
+background-color:white;
+border-radius:0.4vw;
+}
+#cardImg{
+width: 25vw;
+height: 20vw;
+}
+.infosection{
+width: 23vw;
+/* text-align: center; */
+margin-left: 1vw;
+margin-top: 0.5vw;
+margin-bottom: 1vw;
+}
+.infobtns{
+display: flex;
+gap: 1vw;
+margin-top: 0.3vw;
+
+}
+.pinfo{
+font-size: 1vw;
+}
+#moonBtn{
+background-color: DimGray;
+/* width: 100px; */
+color:black;
+}
+#sunBtn{
+background-color: wheat;
+color: white
+}
